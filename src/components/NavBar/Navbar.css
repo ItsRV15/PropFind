@@ -1,0 +1,138 @@
+.header {
+    background-color: rgb(18, 38, 51);
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(18, 38, 51);
+}
+
+.header-logo {
+    font-weight: bolder;
+    font-size: clamp(15px, 2vw, 25px);
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.header-logo-first {
+    color: rgb(206, 205, 205);
+    background-color: rgb(18, 38, 51);
+}
+
+.header-logo-second {
+    color: rgb(255, 255, 255);
+    background-color: rgb(18, 38, 51);
+}
+
+/* Main navigation list */
+.header-list {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    background-color: rgb(18, 38, 51);
+    margin-right: 35px;
+}
+
+/* Navigation items */
+.header-list-item {
+    position: relative;
+    font-size: clamp(15px, 2vw, 19px);
+    padding: 5px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+
+    display: inline-block;
+    transition: transform 0.5s ease, color 0.5s ease;
+}
+
+/* underline */
+.header-list-item::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background-color: rgb(206, 205, 205);
+    transition: width 0.5s ease, left 0.5s ease;
+}
+
+/* hover effect */
+.header-list-item:hover {
+    transform: scale(1.12);
+    color: rgb(109, 216, 228);
+}
+
+.header-list-item:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+
+
+.link-list {
+    text-decoration: none;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .header-box {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 0;
+    }
+
+    .header-logo {
+        margin-left: 0;
+        padding: 5px;
+    }
+
+    /* Stack the nav items vertically */
+    .header-list {
+        flex-direction: column;
+        gap: 1rem;
+        margin-right: 0;
+        margin-top: 10px;
+    }
+
+    .header-list-item {
+        font-size: clamp(15px, 2vw, 18px);
+        padding: 10px;
+    }
+
+    /* For smaller screens, reduce the logo size */
+    .header-logo {
+        font-size: clamp(18px, 1.5vw, 22px);
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+    .header-logo {
+        font-size: clamp(13px, 2vw, 18px);
+    }
+
+    .header-list-item {
+        font-size: clamp(15px, 2vw, 16px);
+        padding: 8px;
+    }
+}
+
+
+
+.logo-icon {
+    width: 25px;         /* adjust size */
+    height: 25px;
+    margin-left: 4px;   /* space between icon and text */
+    vertical-align: middle;
+}

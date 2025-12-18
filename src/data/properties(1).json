@@ -1,0 +1,216 @@
+{
+	"properties": [
+		{
+			"id": "prop1",
+			"type": "House",
+			"bedrooms": 3,
+			"price": 750000,
+			"tenure": "Freehold",
+			"description": "Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
+			"shortdescription":"A charming three-bedroom semi-detached family home near Petts Wood station, featuring spacious living areas, a conservatory, and a well-maintained garden",
+			"location": "Petts Wood Road, Petts Wood,Orpington BR5",
+			"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2489.6744206617686!2d0.07950867687345958!3d51.39066161922436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ab82cc8f3cb1%3A0xc746da03b0c6c716!2sPetts%20Wood%20Rd%2C%20Petts%20Wood%2C%20Orpington%2C%20UK!5e0!3m2!1sen!2slk!4v1703920845483!5m2!1sen!2slk",
+			"picture": "/PropImages/prop1/11.jpg",
+			"postalCode": "BR5",
+			"url": "properties/prop1.html",
+			"added": {
+				"month": "October",
+				"day": 12,
+				"year": 2022
+			},
+			"pictures": [
+				"/PropImages/prop1/11.jpg",
+				"/PropImages/prop1/12.jpg",
+				"/PropImages/prop1/13.jpg",
+				"/PropImages/prop1/14.jpg",
+				"/PropImages/prop1/15.jpg"
+			]
+		},
+		{
+			"id": "prop2",
+			"type": "House",
+			"bedrooms": 2,
+			"price": 399995,
+			"tenure": "Freehold",
+			"description": "Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
+			"shortdescription":"A modern two-bedroom garden flat with open-plan living, bi-fold doors to a private courtyard, and two bathrooms, perfect for contemporary living.",
+			"location": "Crofton Road Orpington BR2,",
+			"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2490.6140724237566!2d0.06955147687262565!3d51.37339112048395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ab6ac2bdc8d1%3A0xb0dde3c09939f924!2sCrofton%20Rd%2C%20Orpington%20BR6%2C%20UK!5e0!3m2!1sen!2slk!4v1703920638856!5m2!1sen!2slk",
+			"picture": "/PropImages/prop2/21.jpg",
+			"postalCode": "BR2",
+			"url": "properties/prop2.html",
+			"added": {
+				"month": "September",
+				"day": 14,
+				"year": 2022
+			},
+			"pictures": [
+				"/PropImages/prop2/21.jpg",
+				"/PropImages/prop2/22.jpg",
+				"/PropImages/prop2/23.jpg",
+				"/PropImages/prop2/24.jpg",
+				"/PropImages/prop2/25.jpg",
+				"/PropImages/prop2/26.jpg"
+			]
+		},
+		{
+			"id": "prop3",
+			"type": "House",
+			"bedrooms": 1,
+			"price": 250000,
+			"tenure": "Leasehold",
+			"description": "A stylish one-bedroom apartment with a modern open-plan kitchen and living area. The property features large windows offering plenty of natural light. The bedroom is spacious, and the bathroom is fitted with contemporary fixtures. Conveniently located near public transportation and local amenities.",
+			"shortdescription":"A stylish one-bedroom apartment with a bright open-plan layout, modern fixtures, and convenient access to public transportation and amenities.",
+			"location": "High Street, Bromley BR1",
+			"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.195649608365!2d-0.02028240734141828!3d51.527971236542605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761d444c42bcf5%3A0x85bffc5b6e2d05dd!2sBromley%20High%20St.%2C%20London%2C%20UK!5e0!3m2!1sen!2slk!4v1703920917458!5m2!1sen!2slk",
+			"picture": "/PropImages/prop3/31.jpg",
+			"postalCode": "BR1",
+			"url": "properties/prop3.html",
+			"added": {
+				"month": "November",
+				"day": 5,
+				"year": 2021
+			},
+			"pictures": [
+				"/PropImages/prop3/31.jpg",
+				"/PropImages/prop3/32.jpg",
+				"/PropImages/prop3/33.jpg",
+				"/PropImages/prop3/34.jpg",
+				"/PropImages/prop3/35.jpg"
+			]
+		},
+		{
+			"id": "prop4",
+			"type": "House",
+			"bedrooms": 4,
+			"price": 980000,
+			"tenure": "Freehold",
+			"description": "A charming four-bedroom family home with a landscaped garden. The property offers a spacious living room, a well-equipped kitchen, and a separate dining area. The master bedroom comes with an en-suite bathroom. Additional features include a garage and off-street parking. Close proximity to schools and parks.",
+			"shortdescription":"A spacious four-bedroom family home with a landscaped garden, en-suite master bedroom, and a garage, close to schools and parks",
+			"location": "Oak Avenue, Chislehurst BR2",
+			"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2477.908686224361!2d-0.08403552311630805!3d51.60656170345408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876004724f15555%3A0x434f9aa20588c9dc!2sChislehurst%20Homecare%20Partnership%20Limited!5e0!3m2!1sen!2slk!4v1703920971758!5m2!1sen!2slk",
+			"picture": "/PropImages/prop4/41.jpg",
+			"postalCode": "BR2",
+			"url": "properties/prop4.html",
+			"added": {
+				"month": "October",
+				"day": 20,
+				"year": 2023
+			},
+			"pictures": [
+				"/PropImages/prop4/41.jpg",
+				"/PropImages/prop4/42.jpg",
+				"/PropImages/prop4/43.jpg",
+				"/PropImages/prop4/44.jpg",
+				"/PropImages/prop4/45.jpg",
+				"/PropImages/prop4/46.jpg"
+			]
+		},
+		{
+			"id": "prop5",
+			"type": "House",
+			"bedrooms": 3,
+			"price": 550000,
+			"tenure": "Leasehold",
+			"description": "A well-maintained three-bedroom maisonette featuring a modern kitchen, a bright and airy living room, and a private balcony. The property benefits from ample storage space and is within walking distance to public transport, shops, and local parks.",
+			"shortdescription":"A cozy three-bedroom maisonette with a private balcony, modern kitchen, and easy access to shops, parks, and public transport.",
+			"location": "Maple Lane, Sevenoaks BR6",
+			"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2455.770279642588!2d0.3278140769029739!3d52.01106377378457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d88a7cb05dc483%3A0xc9d8bed5d91f9163!2sMaple%20Lane!5e0!3m2!1sen!2slk!4v1703921014106!5m2!1sen!2slk",
+			"picture": "/PropImages/prop5/51.jpg",
+			"postalCode": "BR6",
+			"url": "properties/prop5.html",
+			"added": {
+				"month": "November",
+				"day": 10,
+				"year": 2024
+			},
+			"pictures": [
+				"/PropImages/prop5/51.jpg",
+				"/PropImages/prop5/52.jpg",
+				"/PropImages/prop5/53.jpg",
+				"/PropImages/prop5/54.jpg",
+				"/PropImages/prop5/55.jpg",
+				"/PropImages/prop5/56.jpg"
+			]
+		},
+		{
+			"id": "prop6",
+			"type": "House",
+			"bedrooms": 3,
+			"price": 675000,
+			"tenure": "Freehold",
+			"description": "A modern three-bedroom townhouse with a spacious living area, contemporary kitchen, and private garden. The master bedroom includes an en-suite bathroom, and the property benefits from a garage. Located in a quiet residential area with easy access to schools, parks, and public transport.",
+			"shortdescription":"A modern three-bedroom townhouse featuring a private garden, en-suite master bedroom, and a garage in a quiet residential area",
+			"location": "Primrose Close, Bexley BR3",
+			"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3391.3436788437384!2d-82.4828055238934!3d31.788382233850953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f06b5c1d9b92bf%3A0xd2da59e6bb772d3f!2sPrimrose%20Ln%2C%20Georgia%2031513%2C%20USA!5e0!3m2!1sen!2slk!4v1703921055749!5m2!1sen!2slk",
+			"picture": "/PropImages/prop6/61.jpg",
+			"postalCode": "BR3",
+			"url": "properties/prop6.html",
+			"added": {
+				"month": "December",
+				"day": 5,
+				"year": 2021
+			},
+			"pictures": [
+				"/PropImages/prop6/61.jpg",
+				"/PropImages/prop6/62.jpg",
+				"/PropImages/prop6/63.jpg",
+				"/PropImages/prop6/64.jpg",
+				"/PropImages/prop6/65.jpg"
+			]
+		},
+		{
+			"id": "prop7",
+			"type": "Apartment",
+			"bedrooms": 0,
+			"price": 180000,
+			"tenure": "Leasehold",
+			"description": "A cozy studio apartment with a modern kitchenette and bathroom. The open-plan design maximizes space, and large windows provide plenty of natural light. Conveniently located near local amenities, shopping centers, and public transportation.",
+			"shortdescription":"A bright studio apartment with an open-plan design, modern kitchenette, and close proximity to shops and public transport",
+			"location": "Elm Street, Sidcup BR4",
+			"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2487.801450549183!2d0.09840057687508261!3d51.42507381671382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ac040d14e589%3A0xd6ad6aa0ee14be74!2sElm%20Rd%2C%20Sidcup%2C%20UK!5e0!3m2!1sen!2slk!4v1703921103440!5m2!1sen!2slk",
+			"picture": "/PropImages/prop7/71.jpg",
+			"postalCode": "BR4",
+			"url": "properties/prop7.html",
+			"added": {
+				"month": "December",
+				"day": 15,
+				"year": 2023
+			},
+			"pictures": [
+				"/PropImages/prop7/71.jpg",
+				"/PropImages/prop7/72.jpg",
+				"/PropImages/prop7/73.jpg",
+				"/PropImages/prop7/74.jpg",
+				"/PropImages/prop7/75.jpg",
+				"/PropImages/prop7/76.jpg"
+			]
+		},
+		{
+			"id": "prop8",
+			"type": "Townhouse",
+			"bedrooms": 2,
+			"price": 420000,
+			"tenure": "Leasehold",
+			"description": "A modern two-bedroom flat with an open-plan kitchen and living area. The property features a balcony with panoramic views. Both bedrooms are generously sized, and there are two bathrooms. Conveniently located near transport links and local amenities.",
+			"shortdescription":"A sleek two-bedroom flat with a balcony offering stunning views, spacious bedrooms, and easy access to local transport and amenities",
+			"location": "Riverside Drive, Dartford BR5",
+			"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.383180640705!2d0.216682276876303!3d51.45112081481297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8b1962a4590b5%3A0x32ad0b63066e48f2!2sRiverside%20Way%2C%20Dartford%2C%20UK!5e0!3m2!1sen!2slk!4v1703921143378!5m2!1sen!2slk",
+			"picture": "/PropImages/prop8/81.jpg",
+			"postalCode": "BR5",
+			"url": "properties/prop8.html",
+			"added": {
+				"month": "January",
+				"day": 8,
+				"year": 2023
+			},
+			"pictures": [
+				"/PropImages/prop8/81.jpg",
+				"/PropImages/prop8/82.jpg",
+				"/PropImages/prop8/83.jpg",
+				"/PropImages/prop8/84.jpg",
+				"/PropImages/prop8/85.jpg"
+			]
+		}
+	]
+}
