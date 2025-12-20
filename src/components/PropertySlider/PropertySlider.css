@@ -1,0 +1,36 @@
+.slider-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .slider {
+    position: relative;
+  }
+  
+  .slider-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .slider-details {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  .slider-price {
+    margin: 0;
+    font-weight: bold;
+    color: white;
+  }
+  
