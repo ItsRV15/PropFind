@@ -12,18 +12,32 @@ const HomePage = () => {
       {/* Displays the site header */}
       <Header />
 
+    <section className="hero">
+        {/* Background Video */}
+        <video
+          className="hero-video"
+          autoPlay
+          muted
+          loop
+          playsInline
+          >
+          <source src="/home-video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
 
-      {/* Hero Section */}
-      {/* Showcases a hero banner with a headline and description */}
-      <section className="hero">
+        {/* Overlay Content */}
+       <div className="hero-overlay">
         <div className="hero-content">
-          <h1>Find Your Dream Home</h1> {/* Main heading */}
+          <h1>Find Your Dream Home</h1>
           <p>
             Explore the best properties at unbeatable prices. Whether you're looking for
             a house, flat, or apartment, we've got you covered.
           </p>
         </div>
-      </section>
+       </div>
+</section>
+
+
 
       {/* Main Content */}
       <div className="slider-content-container">
