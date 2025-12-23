@@ -28,7 +28,7 @@ export default function AboutUs() {
   {/* Overlay Content */}
   <div className="header-overlay">
     <div className="container">
-      <h1>Welcome to propFind</h1>
+      <h1>Welcome to PropFind</h1>
       <p>Your journey to finding the perfect property starts here</p>
     </div>
   </div>
@@ -107,7 +107,7 @@ export default function AboutUs() {
 
       {/* Footer Section */}
       <footer className="contact-footer">
-        <p>&copy; 2025 EstateEase. All rights reserved.</p>
+        <p>&copy; 2025 PropFind. All rights reserved.</p>
         <p>
           Follow us on{" "}
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
