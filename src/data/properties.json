@@ -19,11 +19,11 @@
 				"year": 2022
 			},
 			"pictures": [
-				"/PropImages/prop1/11.jpg",
-				"/PropImages/prop1/12.jpg",
-				"/PropImages/prop1/13.jpg",
-				"/PropImages/prop1/14.jpg",
-				"/PropImages/prop1/15.jpg"
+				"/Images/prop1/11.jpg",
+				"/Images/prop1/12.jpg",
+				"/Images/prop1/13.jpg",
+				"/Images/prop1/14.jpg",
+				"/Images/prop1/15.jpg"
 			]
 		},
 		{
@@ -45,12 +45,12 @@
 				"year": 2022
 			},
 			"pictures": [
-				"/PropImages/prop2/21.jpg",
-				"/PropImages/prop2/22.jpg",
-				"/PropImages/prop2/23.jpg",
-				"/PropImages/prop2/24.jpg",
-				"/PropImages/prop2/25.jpg",
-				"/PropImages/prop2/26.jpg"
+				"/Images/prop2/21.jpg",
+				"/Images/prop2/22.jpg",
+				"/Images/prop2/23.jpg",
+				"/Images/prop2/24.jpg",
+				"/Images/prop2/25.jpg",
+				"/Images/prop2/26.jpg"
 			]
 		},
 		{
@@ -72,11 +72,11 @@
 				"year": 2021
 			},
 			"pictures": [
-				"/PropImages/prop3/31.jpg",
-				"/PropImages/prop3/32.jpg",
-				"/PropImages/prop3/33.jpg",
-				"/PropImages/prop3/34.jpg",
-				"/PropImages/prop3/35.jpg"
+				"/Images/prop3/31.jpg",
+				"/Images/prop3/32.jpg",
+				"/Images/prop3/33.jpg",
+				"/Images/prop3/34.jpg",
+				"/Images/prop3/35.jpg"
 			]
 		},
 		{
@@ -89,7 +89,7 @@
 			"shortdescription":"A spacious four-bedroom family home with a landscaped garden, en-suite master bedroom, and a garage, close to schools and parks",
 			"location": "Oak Avenue, Chislehurst BR2",
 			"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2477.908686224361!2d-0.08403552311630805!3d51.60656170345408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876004724f15555%3A0x434f9aa20588c9dc!2sChislehurst%20Homecare%20Partnership%20Limited!5e0!3m2!1sen!2slk!4v1703920971758!5m2!1sen!2slk",
-			"picture": "/PropImages/prop4/41.jpg",
+			"picture": "Images/prop4/41.jpg",
 			"postalCode": "BR2",
 			"url": "properties/prop4.html",
 			"added": {
@@ -98,12 +98,12 @@
 				"year": 2023
 			},
 			"pictures": [
-				"/PropImages/prop4/41.jpg",
-				"/PropImages/prop4/42.jpg",
-				"/PropImages/prop4/43.jpg",
-				"/PropImages/prop4/44.jpg",
-				"/PropImages/prop4/45.jpg",
-				"/PropImages/prop4/46.jpg"
+				"/Images/prop4/41.jpg",
+				"/Images/prop4/42.jpg",
+				"/Images/prop4/43.jpg",
+				"/Images/prop4/44.jpg",
+				"/Images/prop4/45.jpg",
+				"/Images/prop4/46.jpg"
 			]
 		},
 		{
@@ -116,7 +116,7 @@
 			"shortdescription":"A cozy three-bedroom maisonette with a private balcony, modern kitchen, and easy access to shops, parks, and public transport.",
 			"location": "Maple Lane, Sevenoaks BR6",
 			"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2455.770279642588!2d0.3278140769029739!3d52.01106377378457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d88a7cb05dc483%3A0xc9d8bed5d91f9163!2sMaple%20Lane!5e0!3m2!1sen!2slk!4v1703921014106!5m2!1sen!2slk",
-			"picture": "/PropImages/prop5/51.jpg",
+			"picture": "Images/prop5/51.jpg",
 			"postalCode": "BR6",
 			"url": "properties/prop5.html",
 			"added": {
@@ -125,12 +125,12 @@
 				"year": 2024
 			},
 			"pictures": [
-				"/PropImages/prop5/51.jpg",
-				"/PropImages/prop5/52.jpg",
-				"/PropImages/prop5/53.jpg",
-				"/PropImages/prop5/54.jpg",
-				"/PropImages/prop5/55.jpg",
-				"/PropImages/prop5/56.jpg"
+				"/Images/prop5/51.jpg",
+				"/Images/prop5/52.jpg",
+				"/Images/prop5/53.jpg",
+				"/Images/prop5/54.jpg",
+				"/Images/prop5/55.jpg",
+				"/Images/prop5/56.jpg"
 			]
 		},
 		{
@@ -143,7 +143,7 @@
 			"shortdescription":"A modern three-bedroom townhouse featuring a private garden, en-suite master bedroom, and a garage in a quiet residential area",
 			"location": "Primrose Close, Bexley BR3",
 			"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3391.3436788437384!2d-82.4828055238934!3d31.788382233850953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f06b5c1d9b92bf%3A0xd2da59e6bb772d3f!2sPrimrose%20Ln%2C%20Georgia%2031513%2C%20USA!5e0!3m2!1sen!2slk!4v1703921055749!5m2!1sen!2slk",
-			"picture": "/PropImages/prop6/61.jpg",
+			"picture": "Images/prop6/61.jpg",
 			"postalCode": "BR3",
 			"url": "properties/prop6.html",
 			"added": {
@@ -152,11 +152,11 @@
 				"year": 2021
 			},
 			"pictures": [
-				"/PropImages/prop6/61.jpg",
-				"/PropImages/prop6/62.jpg",
-				"/PropImages/prop6/63.jpg",
-				"/PropImages/prop6/64.jpg",
-				"/PropImages/prop6/65.jpg"
+				"/Images/prop6/61.jpg",
+				"/Images/prop6/62.jpg",
+				"/Images/prop6/63.jpg",
+				"/Images/prop6/64.jpg",
+				"/Images/prop6/65.jpg"
 			]
 		},
 		{
@@ -169,7 +169,7 @@
 			"shortdescription":"A bright studio apartment with an open-plan design, modern kitchenette, and close proximity to shops and public transport",
 			"location": "Elm Street, Sidcup BR4",
 			"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2487.801450549183!2d0.09840057687508261!3d51.42507381671382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ac040d14e589%3A0xd6ad6aa0ee14be74!2sElm%20Rd%2C%20Sidcup%2C%20UK!5e0!3m2!1sen!2slk!4v1703921103440!5m2!1sen!2slk",
-			"picture": "/PropImages/prop7/71.jpg",
+			"picture": "Images/prop7/71.jpg",
 			"postalCode": "BR4",
 			"url": "properties/prop7.html",
 			"added": {
@@ -178,12 +178,12 @@
 				"year": 2023
 			},
 			"pictures": [
-				"/PropImages/prop7/71.jpg",
-				"/PropImages/prop7/72.jpg",
-				"/PropImages/prop7/73.jpg",
-				"/PropImages/prop7/74.jpg",
-				"/PropImages/prop7/75.jpg",
-				"/PropImages/prop7/76.jpg"
+				"/Images/prop7/71.jpg",
+				"/Images/prop7/72.jpg",
+				"/Images/prop7/73.jpg",
+				"/Images/prop7/74.jpg",
+				"/Images/prop7/75.jpg",
+				"/Images/prop7/76.jpg"
 			]
 		},
 		{
@@ -196,7 +196,7 @@
 			"shortdescription":"A sleek two-bedroom flat with a balcony offering stunning views, spacious bedrooms, and easy access to local transport and amenities",
 			"location": "Riverside Drive, Dartford BR5",
 			"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.383180640705!2d0.216682276876303!3d51.45112081481297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8b1962a4590b5%3A0x32ad0b63066e48f2!2sRiverside%20Way%2C%20Dartford%2C%20UK!5e0!3m2!1sen!2slk!4v1703921143378!5m2!1sen!2slk",
-			"picture": "/PropImages/prop8/81.jpg",
+			"picture": "Images/prop8/81.jpg",
 			"postalCode": "BR5",
 			"url": "properties/prop8.html",
 			"added": {
@@ -205,11 +205,11 @@
 				"year": 2023
 			},
 			"pictures": [
-				"/PropImages/prop8/81.jpg",
-				"/PropImages/prop8/82.jpg",
-				"/PropImages/prop8/83.jpg",
-				"/PropImages/prop8/84.jpg",
-				"/PropImages/prop8/85.jpg"
+				"/Images/prop8/81.jpg",
+				"/Images/prop8/82.jpg",
+				"/Images/prop8/83.jpg",
+				"/Images/prop8/84.jpg",
+				"/Images/prop8/85.jpg"
 			]
 		}
 	]
