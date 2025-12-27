@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     width: 100%;             /* Make it full width */
-    position: fixed;         /* Fix it at the top */
+    position: relative;        /* Fix it at the top */
     top: 0;                  /* Align to top */
     left: 0;
     z-index: 1000;           /* Keep it above other content */

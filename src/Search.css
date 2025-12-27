@@ -1,0 +1,314 @@
+/* General Styling */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #1c3d5a;
+  margin-top: 20px;
+}
+
+p {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #7f8c8d;
+  margin-bottom: 20px;
+}
+
+/* Page Layout */
+.main-layout {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.left-section {
+  flex: 2;
+}
+
+.favourites-list {
+  flex: 0.5;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.favourites-list h2 {
+  font-size: 1.5rem;
+  color: #1c3d5a;
+  margin-bottom: 15px;
+}
+
+.favourite-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.favourite-item img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+button.remove-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+button.remove-button:hover {
+  background-color: #c0392b;
+  transform: scale(1.05);
+}
+
+/* Search Form */
+.Search-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Search-form .section-title {
+  font-size: 1.8rem;
+  color: #1c3d5a;
+  margin-bottom: 15px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.form-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-item label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #1c3d5a;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+input:focus,
+select:focus {
+  border-color: #1c3d5a;
+  outline: none;
+}
+
+button.search-button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #1c3d5a, #1c2430);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.search-button:hover {
+  background: linear-gradient(135deg, #1c2430, #1c3d5a);
+}
+
+/* Results Section */
+.results-container {
+  margin-top: 20px;
+}
+
+.results-container .section-title {
+  font-size: 1.8rem;
+  color: #1c3d5a;
+  margin-bottom: 15px;
+}
+
+.no-results {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #e74c3c;
+  margin-top: 20px;
+}
+
+.property-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.property-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.property-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.property-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.property-details {
+  padding: 15px;
+  text-align: center;
+}
+
+.property-details h3 {
+  font-size: 1.3rem;
+  color: #1c3d5a;
+  margin-bottom: 10px;
+}
+
+.property-details p {
+  font-size: 1rem;
+  color: #000000;
+}
+
+/* Add to Favorites Button */
+button.add-favorite-button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  background-color: #1c3d5a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+favourite-item {
+  display: inline;
+}
+
+button.add-favorite-button:hover {
+  background-color: #174969;
+  transform: scale(1.05);
+}
+
+/* Explore More Button */
+button.explore-button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button.explore-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #0e162e;
+  color: #ffffff;
+  margin-top: auto;
+}
+
+.footer a {
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-layout {
+    flex-direction: column;
+  }
+
+  .property-gallery {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  button.search-button,
+  button.add-favorite-button,
+  button.explore-button {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+
+  button.remove-button {
+    font-size: 0.8rem;
+  }
+}
+
+.clear-button {
+  background-color: #ffffff;
+  color: rgb(247, 1, 1);
+  border: none;
+  padding: 5px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.clear-button:hover {
+  background-color: #f30000;
+  color: white;
+}
+
+.favorites-clear {
+  margin-top: 10px;
+}
+
+.favorite-type {
+  font-size: 1rem;
+  font-weight: bold;
+}

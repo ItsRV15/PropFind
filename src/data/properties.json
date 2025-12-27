@@ -188,7 +188,7 @@
 		},
 		{
 			"id": "prop8",
-			"type": "Townhouse",
+			"type": "Bunglow",
 			"bedrooms": 2,
 			"price": 420000,
 			"tenure": "Leasehold",
