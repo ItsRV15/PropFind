@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import propertiesData from "./data/properties.json"; // Import properties data
-import { useNavigate } from "react-router-dom"; // Import navigation hook
+import { useNavigate } from "react-router-dom"; // Import navigation hook/used to move to another page
 import "./Search.css"; // Import CSS for styling
 
 export default function Search() {
   const [filteredProperties, setFilteredProperties] = useState(
     propertiesData.properties // Initialize filtered properties with all properties
   );
-  const [favorites, setFavorites] = useState([]); // State for favorite properties
+  const [favorites, setFavorites] = useState([]); // Stores properties added to the Favorites list
 
-  // Map for converting month names to numbers
+  //converting json months to numbers,cuz JS date requires numbers
   const monthToNumber = {
     January: 1,
     February: 2,
@@ -26,29 +26,36 @@ export default function Search() {
   };
 
 
-   // Handle search form submission
+   // Runs when the search form is submitted
   const handleSearch = (event) => {
-    event.preventDefault(); // Prevent default form submission behavior
+    event.preventDefault(); // Stops the page from reloading to default 
 
-    const formData = new FormData(event.target); // Capture form data
+    const formData = new FormData(event.target); //Collects all form inputs at once.
     const propertyType = formData.get("propertyType");
-    const searchArea = formData.get("searchArea");
-    const minBedrooms = parseInt(formData.get("NoOfBedroomMin"), 10) || 0;
-    const maxBedrooms = parseInt(formData.get("NoOfBedroomMax"), 10) || Infinity;
+    const searchArea = formData.get("searchArea"); //Selected property type and area
+
+
+    const minBedrooms = parseInt(formData.get("NoOfBedroomMin"), 10) || 0;//min bedroom default to 0
+    const maxBedrooms = parseInt(formData.get("NoOfBedroomMax"), 10) || Infinity;  //and max to infinity
     const minPrice = parseInt(formData.get("priceMin"), 10) || 0;
     const maxPrice = parseInt(formData.get("priceMax"), 10) || Infinity;
+
+    //Converts selected start date to a Date object
     const startDate = formData.get("startDate")
       ? new Date(formData.get("startDate"))
-      : null;
+      : null; 
+
+
     const endDate = formData.get("endDate")
       ? new Date(formData.get("endDate"))
       : null;
 
       // Filter properties based on form input
-    const filtered = propertiesData.properties.filter((property) => {
-      const addedDate = new Date(
+    const filtered = propertiesData.properties.filter((property) => { //Loops through every property and keep only passed conditions
+      
+      const addedDate = new Date( //Converts JSON date data into a valid JavaScript Date
         property.added.year,
-        monthToNumber[property.added.month] - 1,
+        monthToNumber[property.added.month] - 1,//-1 because JavaScript months start at 0
         property.added.day
       );
 
@@ -56,7 +63,9 @@ export default function Search() {
       return (
         (propertyType === "type" || property.type === propertyType) && // If user selected All Types → allow all properties
                                                                         //Otherwise → property type must match exactly
+
         (searchArea === "area" || property.location.includes(searchArea)) &&  //"area" means Any Area
+        
         property.bedrooms >= minBedrooms &&  //Ensures property has at least the selected minimum number
         property.bedrooms <= maxBedrooms &&  //Ensures property has at most the selected maximum number
         property.price >= minPrice &&  //Property price must be greater than or equal to selected min price
@@ -144,7 +153,7 @@ export default function Search() {
                     {/* 
                         Dynamically generate 20 price options
                        Array.from creates an array of length 20
-                       i starts from 0
+                       i starts from 0..
                       (i + 1) avoids starting from 0
                       Each price increases by 50,000
                                                         */}
