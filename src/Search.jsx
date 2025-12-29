@@ -347,8 +347,9 @@ export default function Search() {
           )}
         </aside>
 
-
-         {/* Footer Section */}
+        
+      </main>
+      {/* Footer Section */}
       <footer className="footer">
         <div className="footer-content">
           <p>&copy; 2025 PropFind. All Rights Reserved.</p>
@@ -358,9 +359,6 @@ export default function Search() {
           </div>
         </div>
       </footer>
-
-        
-      </main>
       
     </div>
   );
