@@ -313,13 +313,15 @@ export default function Search() {
         {/* Favorites Section */}
         <aside
           className="favourites-list"
-          onDrop={handleDrop}
-          onDragOver={handleDragOver}
+          onDrop={handleDrop}//handles dropping dragged property cards
+          onDragOver={handleDragOver}//allows dropping by preventing default behavior
         >
           <h2>Favorites</h2>
-          {favorites.length > 0 ? (
+          {favorites.length > 0 ? (//check if there are any fav if true show
             <>
               {favorites.map((fav) => (
+                //id-unique key required by react
+                //represetns one fav prop
                 <div key={fav.id} className="favourite-item">
                   <img src={fav.picture} alt={fav.type} />
                   <div>
@@ -344,6 +346,18 @@ export default function Search() {
             <p>Drag properties here or click "Add to Favorites".</p>
           )}
         </aside>
+
+
+         {/* Footer Section */}
+      <footer className="footer">
+        <div className="footer-content">
+          <p>&copy; 2025 PropFind. All Rights Reserved.</p>
+          <p>Follow us on:</p>
+          <div className="social-icons">
+            <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a>
+          </div>
+        </div>
+      </footer>
 
         
       </main>
