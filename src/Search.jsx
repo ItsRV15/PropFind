@@ -84,7 +84,65 @@ export default function Search() {
     setFilteredProperties(filtered); // Update filtered properties
   };
 
-  
+
+    // Clear search results and reset form
+  const handleClearSearch = () => {
+    setFilteredProperties(propertiesData.properties); // Reset to all properties
+    document.querySelector(".Search-form").reset(); // Reset form fields
+  };
+
+
+  const navigate = useNavigate(); // Hook for navigation ,That function lets you change the URL programmatically
+  //useNavigate comes from react-router-dom
+
+
+  // Navigate to the property details page
+  const handleExploreMore = (id) => { //function that receives a property ID
+    navigate(`/properties/${id}`);
+  };
+
+    // Add a property to the favorites list
+  const addToFavorites = (property) => {
+    //loop through the favourite array with ID to check is it already there
+    if (!favorites.some((fav) => fav.id === property.id)) {
+      setFavorites([...favorites, property]);
+      //creates a new array,copies all existing favourites and add the new one to end
+    }
+  };
+
+
+    // Remove a property from the favorites list
+    //loop through all favourites and keep only not matching props with ID
+  const removeFromFavorites = (propertyId) => {
+    setFavorites(favorites.filter((fav) => fav.id !== propertyId));
+  };
+
+    // Clear all favorites
+  const clearFavorites = () => {
+    setFavorites([]); //empty array
+  };
+
+    // Handle dragging a property card
+  const handleDragStart = (event, property) => {
+    event.dataTransfer.setData("property", JSON.stringify(property));
+  };
+
+  // Handle dropping a property card into the favorites list
+  const handleDrop = (event) => {
+    event.preventDefault();
+    const propertyData = event.dataTransfer.getData("property");
+    const property = JSON.parse(propertyData);
+    addToFavorites(property);
+  };
+
+  // Allow dropping in the favorites list
+  const handleDragOver = (event) => {
+    event.preventDefault();
+  };
+
+
+
+
 
   return (
     <div className="wrapper">
@@ -93,7 +151,7 @@ export default function Search() {
         <section className="left-section">
           <div className="Search-container">
             {/* Search Form */}
-            <form className="Search-form" >
+            <form className="Search-form" onSubmit={handleSearch} >
               <h2 className="section-title">Search Properties</h2>
               {/* Property Type */}
               <div className="form-row">
@@ -189,7 +247,7 @@ export default function Search() {
                 </button>
                 <button
                   type="button"
-                  
+                  onClick={handleClearSearch}
                   className="clear-button"
                 >
                   Clear All
@@ -198,8 +256,94 @@ export default function Search() {
             </form>
           </div>
 
+          {/* Search Results */}
+          <div className="results-container">
+            <h2 className="section-title">Our Properties</h2>
+            {filteredProperties.length > 0 ? ( //check there any props after filtering if true show them
+              <div className="property-gallery">
+                {filteredProperties.map((property) => (//loop through each prop and creates one ard for each
+                  <div
+                    key={property.id}
+                    className="property-card"
+                    draggable
+                    //attaches property data to the drag event
+                    onDragStart={(event) => handleDragStart(event, property)}
+                  >
+                    <img
+                      src={property.picture}
+                      alt={property.type}
+                      className="property-image"
+                    />
+                    <div className="property-details">
+                      <h3>{property.type}</h3>
+                      <p>{property.location}</p>
+                      <p>{property.shortdescription}</p>
+                      <p>
+                        {new Intl.NumberFormat("en-US", { //formatting the price as currency(add ,/$)
+                          style: "currency",
+                          currency: "USD",
+                        }).format(property.price)}
+                      </p>
+
+                
+                      <button //adding prop to the fav list, passses the entire prop object
+                        onClick={() => addToFavorites(property)} 
+                        className="add-favorite-button"
+                      >
+                        Add to Favorites
+                      </button>
+                      <button
+                        onClick={() => handleExploreMore(property.id)}
+                        className="explore-button"
+                      >
+                        Explore More
+                      </button>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <p className="no-results">No properties match your search.</p>
+            )}
+          </div>
+
           
         </section>
+
+        {/* Favorites Section */}
+        <aside
+          className="favourites-list"
+          onDrop={handleDrop}
+          onDragOver={handleDragOver}
+        >
+          <h2>Favorites</h2>
+          {favorites.length > 0 ? (
+            <>
+              {favorites.map((fav) => (
+                <div key={fav.id} className="favourite-item">
+                  <img src={fav.picture} alt={fav.type} />
+                  <div>
+                    <h3 className="favorite-type">{fav.type}</h3>
+                    <button
+                      onClick={() => removeFromFavorites(fav.id)}
+                      className="remove-button"
+                    >
+                      Remove
+                    </button>
+                  </div>
+                </div>
+              ))}
+              <button
+                onClick={clearFavorites}
+                className="clear-button favorites-clear"
+              >
+                Clear All Favorites
+              </button>
+            </>
+          ) : (
+            <p>Drag properties here or click "Add to Favorites".</p>
+          )}
+        </aside>
 
         
       </main>
