@@ -88,7 +88,7 @@ const PropertyPage = () => {
 
       {/* Footer */}
       <footer className="property-footer">
-        <p>&copy; 2025 PropFind . All Rights Reserved.</p>
+        <p>&copy; 2026 PropFind . All Rights Reserved.</p>
       </footer>
     </div>
   );

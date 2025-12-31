@@ -66,7 +66,7 @@ const HomePage = () => {
       <footer className="footer">
         <div className="footer-content">
           {/* Footer Text */}
-          <p>&copy; 2025 PropFind. All Rights Reserved.</p>
+          <p>&copy; 2026 PropFind. All Rights Reserved.</p>
           <p>Follow us on:</p>
           {/* Social Media Links */}
           <div className="social-icons">

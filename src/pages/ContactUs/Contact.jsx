@@ -84,7 +84,7 @@ export default function Contact() {
 
       {/* Footer Section */}
       <footer className="contact-footer">
-        <p>&copy; 2025 PropFind. All rights reserved.</p>
+        <p>&copy; 2026 PropFind. All rights reserved.</p>
         <p>
           Follow us on{" "}
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
