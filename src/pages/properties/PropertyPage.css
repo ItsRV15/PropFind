@@ -1,0 +1,130 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth; /* For smooth scrolling */
+}
+
+* {
+  box-sizing: inherit;
+}
+
+.property-page {
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  padding: 20px;
+  min-height: 100vh; /* Full viewport height */
+  position: relative;
+}
+
+
+/* Header */
+.property-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.property-header h1 {
+  font-size: 2.5rem;
+  color: #1c3d5a;
+}
+
+.property-header p {
+  font-size: 1.2rem;
+  color: #4f6364;
+}
+
+/* Image Slider */
+.property-slider {
+  margin: 20px auto 0; /* Auto margin horizontally, no vertical centering */
+  text-align: center;
+}
+
+.property-slider img {
+  max-width: 80%; /* Reduce width */
+  max-height: 400px; /* Limit height */
+  border-radius: 8px;
+  margin: 0 auto; /* Center images */
+  display: block; /* Ensure images are block elements */
+}
+
+/* Property Details */
+.property-details {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+.property-details h2 {
+  font-size: 2rem;
+  color: #1c3d5a;
+  margin-bottom: 15px;
+}
+
+.property-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.property-details ul li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.property-details ul li strong {
+  color: #1c3d5a;
+}
+
+/* Property Description */
+.property-description {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+.property-description h2 {
+  font-size: 2rem;
+  color: #1c3d5a;
+  margin-bottom: 15px;
+}
+
+.property-description p {
+  font-size: 1.1rem;
+  color: #7f8c8d;
+  line-height: 1.8;
+}
+
+/* Property Location */
+.property-location {
+  margin: 20px 0;
+}
+
+.property-location h2 {
+  font-size: 2rem;
+  color: #1c3d5a;
+  margin-bottom: 15px;
+}
+
+.property-location iframe {
+  width: 100%;
+  height: 300px;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+.property-footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  background: #1c3d5a;
+  color: white;
+  font-size: 1rem;
+}

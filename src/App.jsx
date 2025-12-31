@@ -8,9 +8,12 @@ import HomePage from './pages/Home/Home'
 import AboutUs from './pages/AboutUs/About'
 import Contact from './pages/ContactUs/Contact'
 import Search from './Search'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import PropertyPage from "./pages/properties/PropertyPage";
+
 
 function App() {//root component
-  const [count, setCount] = useState(0)
+  
 
   return (
     <BrowserRouter> {/*Wraps the entire app / Enables navigation without page reloads*/}
@@ -20,14 +23,17 @@ function App() {//root component
         <Route path="/HomePage" element={<HomePage />} />  {/*Alternative path to the same page*/}
         <Route path="/about" element={<AboutUs />} /> {/*load about us page*/}
         <Route path="/contact" element={<Contact />} />
-        <Route path="/search" element={<Search />} /> 
+        <Route path="/search" element={<Search />} />
+        <Route path="/properties/:id" element={<PropertyPage />} />
+        
 
       </Routes>
 
       
     </BrowserRouter>
 
-  )
+  );
 }
 
-export default App //App component available to other files,we can use it elsewhere
+export default App;
+
