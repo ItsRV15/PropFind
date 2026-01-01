@@ -16,14 +16,15 @@
 			"added": {
 				"month": "October",
 				"day": 12,
-				"year": 2022
+				"year": 2025
 			},
 			"pictures": [
 				"/Images/prop1/11.jpg",
 				"/Images/prop1/12.jpg",
 				"/Images/prop1/13.jpg",
 				"/Images/prop1/14.jpg",
-				"/Images/prop1/15.jpg"
+				"/Images/prop1/15.jpg",
+				"/Images/prop1/16.jpg"
 			]
 		},
 		{
@@ -42,7 +43,7 @@
 			"added": {
 				"month": "September",
 				"day": 14,
-				"year": 2022
+				"year": 2025
 			},
 			"pictures": [
 				"/Images/prop2/21.jpg",
@@ -50,7 +51,8 @@
 				"/Images/prop2/23.jpg",
 				"/Images/prop2/24.jpg",
 				"/Images/prop2/25.jpg",
-				"/Images/prop2/26.jpg"
+				"/Images/prop2/26.jpg",
+				"/Images/prop2/27.jpg"
 			]
 		},
 		{
@@ -69,14 +71,15 @@
 			"added": {
 				"month": "November",
 				"day": 5,
-				"year": 2021
+				"year": 2025
 			},
 			"pictures": [
 				"/Images/prop3/31.jpg",
 				"/Images/prop3/32.jpg",
 				"/Images/prop3/33.jpg",
 				"/Images/prop3/34.jpg",
-				"/Images/prop3/35.jpg"
+				"/Images/prop3/35.jpg",
+				"/Images/prop3/36.jpg"
 			]
 		},
 		{
@@ -95,7 +98,7 @@
 			"added": {
 				"month": "October",
 				"day": 20,
-				"year": 2023
+				"year": 2025
 			},
 			"pictures": [
 				"/Images/prop4/41.jpg",
@@ -103,7 +106,8 @@
 				"/Images/prop4/43.jpg",
 				"/Images/prop4/44.jpg",
 				"/Images/prop4/45.jpg",
-				"/Images/prop4/46.jpg"
+				"/Images/prop4/46.jpg",
+				"/Images/prop4/47.jpg"
 			]
 		},
 		{
@@ -122,7 +126,7 @@
 			"added": {
 				"month": "November",
 				"day": 10,
-				"year": 2024
+				"year": 2025
 			},
 			"pictures": [
 				"/Images/prop5/51.jpg",
@@ -130,7 +134,8 @@
 				"/Images/prop5/53.jpg",
 				"/Images/prop5/54.jpg",
 				"/Images/prop5/55.jpg",
-				"/Images/prop5/56.jpg"
+				"/Images/prop5/56.jpg",
+				"/Images/prop5/57.jpg"
 			]
 		},
 		{
@@ -149,14 +154,15 @@
 			"added": {
 				"month": "December",
 				"day": 5,
-				"year": 2021
+				"year": 2025
 			},
 			"pictures": [
 				"/Images/prop6/61.jpg",
 				"/Images/prop6/62.jpg",
 				"/Images/prop6/63.jpg",
 				"/Images/prop6/64.jpg",
-				"/Images/prop6/65.jpg"
+				"/Images/prop6/65.jpg",
+				"/Images/prop6/66.jpg"
 			]
 		},
 		{
@@ -175,7 +181,7 @@
 			"added": {
 				"month": "December",
 				"day": 15,
-				"year": 2023
+				"year": 2025
 			},
 			"pictures": [
 				"/Images/prop7/71.jpg",
@@ -183,7 +189,8 @@
 				"/Images/prop7/73.jpg",
 				"/Images/prop7/74.jpg",
 				"/Images/prop7/75.jpg",
-				"/Images/prop7/76.jpg"
+				"/Images/prop7/76.jpg",
+				"/Images/prop7/77.jpg"
 			]
 		},
 		{
@@ -202,14 +209,15 @@
 			"added": {
 				"month": "January",
 				"day": 8,
-				"year": 2023
+				"year": 2025
 			},
 			"pictures": [
 				"/Images/prop8/81.jpg",
 				"/Images/prop8/82.jpg",
 				"/Images/prop8/83.jpg",
 				"/Images/prop8/84.jpg",
-				"/Images/prop8/85.jpg"
+				"/Images/prop8/85.jpg",
+				"/Images/prop8/86.jpg"
 			]
 		}
 	]
