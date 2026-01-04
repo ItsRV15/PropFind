@@ -1,0 +1,87 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`NavBar > matches snapshot 1`] = `
+<DocumentFragment>
+  <header
+    class="header"
+  >
+    <div
+      class="header-box"
+    >
+      <a
+        class="link-list"
+        data-discover="true"
+        href="/HomePage"
+      >
+        <h1
+          class="header-logo"
+        >
+          <span
+            class="header-logo-first"
+          >
+            Prop
+          </span>
+          <span
+            class="header-logo-second"
+          >
+            Find
+          </span>
+          <img
+            alt="House"
+            class="logo-icon"
+            src="home.png"
+          />
+        </h1>
+      </a>
+      <ul
+        class="header-list"
+      >
+        <a
+          class="link-list"
+          data-discover="true"
+          href="/HomePage"
+        >
+          <li
+            class="header-list-item"
+          >
+            Home
+          </li>
+        </a>
+        <a
+          class="link-list"
+          data-discover="true"
+          href="/search"
+        >
+          <li
+            class="header-list-item"
+          >
+            Properties
+          </li>
+        </a>
+        <a
+          class="link-list"
+          data-discover="true"
+          href="/about"
+        >
+          <li
+            class="header-list-item"
+          >
+            About Us
+          </li>
+        </a>
+        <a
+          class="link-list"
+          data-discover="true"
+          href="/contact"
+        >
+          <li
+            class="header-list-item"
+          >
+            Contact Us
+          </li>
+        </a>
+      </ul>
+    </div>
+  </header>
+</DocumentFragment>
+`;
